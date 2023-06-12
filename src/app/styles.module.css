@@ -1,6 +1,54 @@
 .lpbg {
   position: relative;
-  background: url("https://live.staticflickr.com/65535/52490007886_0783b831cd_k.jpg")
+  background: url("https://live.staticflickr.com/65535/52610476294_78d4c1ba25_o.jpg")
     center center / cover no-repeat fixed;
   height: 100vh;
+  animation: fadeIn 2s cubic-bezier(0.06, 0.76, 0.28, 1);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
