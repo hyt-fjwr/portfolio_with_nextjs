@@ -1,0 +1,6 @@
+.lpbg {
+  position: relative;
+  background: url("https://live.staticflickr.com/65535/52490007886_0783b831cd_k.jpg")
+    center center / cover no-repeat fixed;
+  height: 100vh;
+}
