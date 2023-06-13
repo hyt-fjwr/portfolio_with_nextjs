@@ -1,4 +1,6 @@
 import styles from './styles.module.css'
+import Image from 'next/image'
+
 export default function Home() {
   return (
     <>
@@ -10,7 +12,16 @@ export default function Home() {
             <h3 className='font-Roboto font-medium tracking-wide text-sm'>Designer</h3>
             <h3 className='font-Roboto font-medium tracking-wide text-sm'>Editor</h3>
           </div>
-          <div className={styles.lpbg}></div>
+          <div className={styles.lpbg}>
+            {/* <Image
+            src="/bg.jpg"
+            alt="Background"
+            quality={100}	
+            layout='fill'
+            objectFit='contain'
+            className=""
+            /> */}
+          </div>
 
           <div className='absolute top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10'>
             <div className='flex justify-center'>

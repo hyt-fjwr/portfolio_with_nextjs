@@ -2,7 +2,7 @@
 
 .lpbg {
   position: relative;
-  background: url("https://live.staticflickr.com/65535/52610476294_78d4c1ba25_o.jpg")
+  background: url("/bg.jpg")
     center center / cover no-repeat fixed;
   height: 100vh;
   animation: fadeIn 2s cubic-bezier(0.06, 0.76, 0.28, 1);
